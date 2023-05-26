@@ -1,83 +1,61 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background-color: #f1f1f1;
-}
-
-#quiz-container {
-  max-width: 500px;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-h1, h2 {
-  text-align: center;
-  color: #333;
-}
-
-#choices {
-  margin-top: 10px;
-}
-
-button {
-  background-color: blue;
-  color: white;
-  padding: 10px 20px;
-  margin: 5px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: darkblue;
-}
-
 #timer {
-  text-align: right;
-  margin-bottom: 20px;
-}
-
-#score-container {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+ #score-container {
   display: none;
-  max-width: 500px;
-  margin: 20px auto;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-#initials-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-label {
-  margin-right: 10px;
-}
-
-input[type="text"] {
-  padding: 5px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
-
-button[type="submit"] {
-  background-color: blue;
-  color: white;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button[type="submit"]:hover {
-  background-color: darkblue;
-}
+  text-align: center;
+  }
+  
+  #score-container h2,
+  #score-container p {
+    color: #333;
+  }
+  
+  #initials-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: darkblue;
+  }
+  
+  button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
