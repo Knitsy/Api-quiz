@@ -132,11 +132,12 @@ function showScores() {
     startButton.textContent = "Start";
     startButton.addEventListener("click", startQuiz);
     quizContainer.appendChild(startButton);
+  });
   
   // Save the high scores to localStorage
   localStorage.setItem("highScores", JSON.stringify(highScores));
-}
+  }  
 
 
-  )}
+  
   
